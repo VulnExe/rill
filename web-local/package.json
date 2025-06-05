@@ -20,6 +20,7 @@
     "manual-publish": "./build-tools/npm_publish.sh"
   },
   "devDependencies": {
+    "@sveltejs/adapter-vercel": "^3.0.0",
     "@clickhouse/client": "^1.11.0",
     "@playwright/test": "^1.50.1",
     "@sveltejs/adapter-static": "^3.0.5",
@@ -35,6 +36,9 @@
     "testcontainers": "^10.24.2",
     "tree-kill": "^1.2.2",
     "vitest": "^3.1.1",
-    "web-common": "*"
+    "web-common": "*",
+      "@sveltejs/adapter-vercel": "^3.0.0",
+  "@sveltejs/kit": "next",
+  "vite": "^5.0.0"
   }
 }
